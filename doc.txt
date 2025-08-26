@@ -14,8 +14,7 @@
 # Флаги Skia:
 # --enable-features=UIEnableSharedImageCacheForGpu,RustyPng
 
-# DRDC
-# Direct Rendering Display Compositor в данный момент работает только на Android и частично на MacOS
+# DrDc. Direct Rendering Display Compositor в данный момент работает только на Android и частично на MacOS
 # https://source.chromium.org/search?q=EnableDrDc&ss=chromium%2Fchromium%2Fsrc 
 #--enable-features=EnableDrDc
 
