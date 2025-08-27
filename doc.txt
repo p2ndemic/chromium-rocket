@@ -21,8 +21,12 @@
 #--enable-features=EnableDrDc
 
 
-# Other stuff:
+# Флаги Wayland которые включены по умолчанию:
+# Можно проверить тут: https://source.chromium.org/chromium/chromium/src/+/main:ui/base/ui_base_features.cc
+# --enable-features=WaylandLinuxDrmSyncobj,WaylandPerSurfaceScale,WaylandTextInputV3
 
+
+# Other stuff:
 const args = [
   "--webrtc-ip-handling-policy=disable_non_proxied_udp",
   "--fingerprinting-canvas-image-data-noise",
